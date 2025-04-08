@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
    <>
-     <footer className="text-center text-lg-start bg-primary text-muted pt-1">
+     <footer className="text-center text-lg-start bg-primary text-muted pt-1 text-dark">
       {/* Section: Social media */}
       
 
@@ -13,10 +13,10 @@ function Footer() {
           <div className="row mt-3">
             {/* Company info */}
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
+              <h6 className="text-uppercase fw-bold mb-4 text-light">
                 <i className="fas fa-gem me-3"></i>Project Fair
               </h6>
-              <p>
+              <p className='text-dark'>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum
                 dolor sit amet, consectetur adipisicing elit.
               </p>
