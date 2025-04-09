@@ -24,7 +24,7 @@ function Auth() {
             <input className='form-control w-50 rounded mt-3' type='text' placeholder='Enter Name'/>
             <input className='form-control w-50 rounded mt-3' type='text' placeholder='EMAIL ID'/>
             <input className='form-control w-50 rounded mt-3' type='text' placeholder='PASSWORD'/>
-         <button className='btn btn-warning mt-3 fw-bold w-50'>REGISTER</button>
+         <Link className='w-50 flex mx-auto' to={'/dashboard'}><button className='btn btn-warning mt-3 fw-bold w-50'>REGISTER</button></Link>
            </div>
            <div>
             <p className='mt-2'>Already a User? <span className='' style={{color:'blue'}}> LOGIN</span></p>
